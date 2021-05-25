@@ -1,0 +1,1 @@
+#  This repository is going to hopefully be a application to hold a history of Auckland housing data, and nicely present the data to users.

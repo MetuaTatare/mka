@@ -7,11 +7,14 @@
         "sourceMap": true,
         "declaration": false,
         "downlevelIteration": true,
+        "emitDecoratorMetadata": false,
         "experimentalDecorators": true,
         "moduleResolution": "node",
         "importHelpers": true,
         "target": "es2018",
         "module": "es2020",
+        "typeRoots": ["node_modules/@types"],
+        "types": ["node", "jasmine"],
         "lib": [
             "es2018",
             "dom"
