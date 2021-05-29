@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "lib",
+    "title": "New Frontend Application",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type":"string",
+            "description": "The name of the application"
+        }
+    },
+    "required": ["name"]
+}

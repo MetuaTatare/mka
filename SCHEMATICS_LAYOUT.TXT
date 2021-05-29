@@ -1,0 +1,51 @@
+Legend 
+    - folder
+    --file
+
+## Basic MKA application schematic structure
+-APPS (Taken from --name="Application Name" in the options)
+    -BE
+        (FILES AND FOLDERS THAT GO INTO THE BACKEND FILE)
+        -models
+            --<% appName>.ts
+        -controllers
+            --<%a appName>.ts
+        -auth
+
+        -services
+            --this is where local api is held
+            
+    -FE
+        (FOLDERS AND FILES THAT GO INTO THE FRONTEND FILE)
+        -src
+            -apps
+                -test repository
+                    --test.component.ts
+                    --README.txt
+                -home
+                    --home.component.ts
+                    --home.component.html
+                    --home.component.scss
+                --app.component.ts
+                --app.component.scss
+                --app.component.html?
+                --app.component.spec.ts
+                --app.module.ts
+            -assets
+                --(images/sounds)
+            -environments
+                --environment.prod.ts
+                --environment.ts
+            --favicon.ico
+            --index.html
+            --main.ts
+            --manifest.json
+            --polyfill.ts (For different web browsers)
+            --style.scss
+        --BUILD.bazel
+        --config.json
+        --karma.conf.js
+        --tsconfig.app.json
+        --tsconfig.spec.json
+    BUILD.bazel
+    package.json

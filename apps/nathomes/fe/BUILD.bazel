@@ -1,0 +1,11 @@
+load("//build:index.bzl", "angular_app")
+
+angular_app(
+    name="corrella",
+    prefix="/apps/corrella/fe/dist",
+    repository="mka/corrella/fe",
+    test_deps = ["@npm//@angular/core"],
+    deps= [
+        "//libs/browse/core"
+    ]
+)
