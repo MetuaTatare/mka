@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "barrels": "barrelsby --delete --singleQuotes --location all -d ./libs/ && rmdir ./libs/index.ts"
+    "barrels": "barrelsby --delete --singleQuotes --location all -d ./libs/ && rmdir ./libs/index.ts",
+    "create-new-app": "tsc -p ./Schematics/tsconfig.json"
   },
   "private": true,
   "dependencies": {

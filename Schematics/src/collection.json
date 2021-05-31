@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "practice-schematics": {
-      "description": "A new applications.",
+      "description": "A new application.",
       "factory": "./{LOCATION TO APPLICATION SCHEMATICS}"
     }
   }
